@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  width: 1280px;
+  height: 700px;
+  justify-content: center;
+  background-color: #080808;
+}
+.home header {
+  width: 1110px;
+  height: 70px;
+  margin-left: 85px;
+  background: #1B1B1B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 95.46px;
+  padding-left: 95px;
+  border-radius: 0px 0px 8px 8px;
+}
+.home header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  width: 717px;
+  height: 18px;
+  list-style: none;
+}
+.home header ul a {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  color: #9C9C9C;
+}
+.home header .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 107.54px;
+  height: 17px;
+}
+.home .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 201px;
+  margin-left: 180px;
+  padding: 0;
+  gap: 30px;
+  width: 538px;
+  height: 247px;
+}
+.home .text h1 {
+  width: 426px;
+  height: 52px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.home .text p {
+  width: 492px;
+  height: 72px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #9C9C9C;
+}
+.home .text button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 21px 64px;
+  gap: 10px;
+  width: 307.89px;
+  height: 63px;
+  background: #3F8E00;
+  border: 1px solid #62BA1B;
+  box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+  border-radius: 4px;
+}
+.home .rasm {
+  width: 350px;
+  height: 350px;
+  margin-left: 800px;
+  margin-top: -300px;
+}
+.home .soz {
+  width: 93px;
+  height: 18px;
+  margin-bottom: 557px;
+  margin-left: 180px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.home .logotips {
+  display: flex;
+  justify-content: space-between;
+  width: 920px;
+  height: 60px;
+  margin-left: 180px;
+  margin-bottom: 595px;
+}/*# sourceMappingURL=main.css.map */
